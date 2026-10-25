@@ -45,9 +45,8 @@ public class WeeklySpending {
 
     public static double sum(double[] list) {
         double sum = 0;
-
-        for (int i = 0; i < list.length; i++) {
-            sum += list[i];
+        for (double n : list) {
+            sum += n;
         }
         return sum;
     }
